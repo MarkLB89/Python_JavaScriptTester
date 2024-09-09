@@ -1,0 +1,152 @@
+[
+    {
+        "text": "John Smith",
+        "label": "PERSON",
+        "start_char": 0,
+        "end_char": 10
+    },
+    {
+        "text": "San Francisco",
+        "label": "GPE",
+        "start_char": 20,
+        "end_char": 33
+    },
+    {
+        "text": "California",
+        "label": "GPE",
+        "start_char": 35,
+        "end_char": 45
+    },
+    {
+        "text": "2015",
+        "label": "DATE",
+        "start_char": 50,
+        "end_char": 54
+    },
+    {
+        "text": "Lisa",
+        "label": "PERSON",
+        "start_char": 202,
+        "end_char": 206
+    },
+    {
+        "text": "late-night",
+        "label": "TIME",
+        "start_char": 343,
+        "end_char": 353
+    },
+    {
+        "text": "weekend",
+        "label": "DATE",
+        "start_char": 374,
+        "end_char": 381
+    },
+    {
+        "text": "2019",
+        "label": "DATE",
+        "start_char": 451,
+        "end_char": 455
+    },
+    {
+        "text": "John",
+        "label": "PERSON",
+        "start_char": 540,
+        "end_char": 544
+    },
+    {
+        "text": "Lisa",
+        "label": "PERSON",
+        "start_char": 549,
+        "end_char": 553
+    },
+    {
+        "text": "Napa Valley",
+        "label": "LOC",
+        "start_char": 589,
+        "end_char": 600
+    },
+    {
+        "text": "2020",
+        "label": "DATE",
+        "start_char": 604,
+        "end_char": 608
+    },
+    {
+        "text": "Palo Alto",
+        "label": "GPE",
+        "start_char": 641,
+        "end_char": 650
+    },
+    {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 678,
+        "end_char": 683
+    },
+    {
+        "text": "Emily",
+        "label": "PERSON",
+        "start_char": 691,
+        "end_char": 696
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "start_char": 701,
+        "end_char": 705
+    },
+    {
+        "text": "second",
+        "label": "ORDINAL",
+        "start_char": 717,
+        "end_char": 723
+    },
+    {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 725,
+        "end_char": 730
+    },
+    {
+        "text": "2023",
+        "label": "DATE",
+        "start_char": 735,
+        "end_char": 739
+    },
+    {
+        "text": "Frenchton",
+        "label": "ORG",
+        "start_char": 785,
+        "end_char": 794
+    },
+    {
+        "text": "Bruno",
+        "label": "PERSON",
+        "start_char": 801,
+        "end_char": 806
+    },
+    {
+        "text": "John",
+        "label": "PERSON",
+        "start_char": 852,
+        "end_char": 856
+    },
+    {
+        "text": "Jeep",
+        "label": "ORG",
+        "start_char": 911,
+        "end_char": 915
+    },
+    {
+        "text": "California",
+        "label": "GPE",
+        "start_char": 970,
+        "end_char": 980
+    },
+    {
+        "text": "Redwood",
+        "label": "PERSON",
+        "start_char": 990,
+        "end_char": 997
+    }
+]

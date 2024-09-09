@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 0,
+        "end_char": 4
+    },
+    {
+        "text": "Buddie",
+        "label": "PERSON",
+        "start_char": 23,
+        "end_char": 29
+    },
+    {
+        "text": "1988",
+        "label": "DATE",
+        "start_char": 46,
+        "end_char": 50
+    },
+    {
+        "text": "the United States",
+        "label": "GPE",
+        "start_char": 54,
+        "end_char": 71
+    }
+]
