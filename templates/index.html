@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+
+    <!-- Link to external CSS files -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbox.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ui.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>Chatbox</h1>
+
+        <!-- Chat Display Area -->
+        <div id="chat-display" class="chat-display">
+            <p>Chat messages will appear here...</p>
+        </div>
+
+        <!-- Input Field for Message -->
+        <textarea id="message-input" rows="3" cols="40" placeholder="Type your message..."></textarea><br>
+        <button class="send-button">Send Message</button>
+    </div>
+
+    <!-- Link to the main JavaScript file -->
+    <script type="module" src="{{ url_for('static', filename='js/chatbox.js') }}"></script>
+</body>
+</html>
