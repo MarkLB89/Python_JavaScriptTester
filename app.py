@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from models import generate_answer  # Import the BERT answer generation function
 
 app = Flask(__name__)
 
@@ -7,16 +8,16 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-# Route to handle the message sending
+# Route to handle the question and answer functionality
 @app.route('/send_message', methods=['POST'])
 def send_message():
-    message = request.form['message']
+    question = request.form['message']  # The message is treated as the question
     
-    # Process the message here (e.g., modify, log, respond)
-    processed_message = f"You said: {message}"
+    # Use the BERT model to generate an answer
+    answer = generate_answer(question)
     
-    # Return the processed message to the frontend
-    return processed_message
+    # Return the processed answer to the frontend
+    return answer
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
