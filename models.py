@@ -6,7 +6,7 @@ import re
 
 # Load the BERT model and tokenizer
 print("Loading the BERT large model...")
-model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
+model_name = "distilbert-base-uncased-distilled-squad"
 model = TFBertForQuestionAnswering.from_pretrained(model_name)
 tokenizer = BertTokenizer.from_pretrained(model_name)
 print("BERT model and tokenizer successfully loaded.")
