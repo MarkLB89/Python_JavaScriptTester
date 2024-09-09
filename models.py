@@ -1,3 +1,4 @@
+#models.py
 from pathlib import Path
 from transformers import BertTokenizer, TFBertForQuestionAnswering
 import tensorflow as tf
@@ -5,7 +6,7 @@ import re
 
 # Load the BERT model and tokenizer
 print("Loading the BERT large model...")
-model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
+model_name = "distilbert-base-uncased-distilled-squad"
 model = TFBertForQuestionAnswering.from_pretrained(model_name)
 tokenizer = BertTokenizer.from_pretrained(model_name)
 print("BERT model and tokenizer successfully loaded.")
@@ -26,10 +27,7 @@ for file_path in text_files_dir.glob('*.txt'):
 print("Text files loaded.")
 
 # Function to generate answers for each question
-def generate_answer(question):
-    # Choose a passage (for example, from the first file)
-    passage = next(iter(text_files.values()))  # In a real app, this can be dynamic
-
+def generate_answer(question, passage):
     try:
         inputs = tokenizer(
             question,
@@ -63,3 +61,4 @@ def generate_answer(question):
     except Exception as e:
         print(f"Error: {e}")
         return "I couldn't find an answer to that question."
+
