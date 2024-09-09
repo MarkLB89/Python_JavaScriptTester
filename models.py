@@ -3,10 +3,12 @@ import tensorflow as tf
 import json
 from pathlib import Path
 
-# Load BERT model and tokenizer
-model_name = "distilbert-base-uncased-distilled-squad"
+# Load the BERT model and tokenizer
+print("Loading the BERT large model...")
+model_name = "bert-large-uncased-whole-word-masking-finetuned-squad"
 model = TFBertForQuestionAnswering.from_pretrained(model_name)
 tokenizer = BertTokenizer.from_pretrained(model_name)
+print("BERT model and tokenizer successfully loaded.")
 
 # Directory where the text files and JSON files are located
 text_files_dir = Path(__file__).parent / 'text_files'
