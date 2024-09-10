@@ -1,3 +1,4 @@
+<!-- /workspaces/Python_JavaScriptTester/templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbox</title>
 
-    <!-- Link to external CSS files -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbox.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ui.css') }}">
@@ -14,8 +14,8 @@
     <div class="card">
         <h1>Chatbox</h1>
 
-        <!-- Dropdown for selecting a file (topic) -->
-        <label for="file-select">Choose a topic:</label>
+        <!-- Dropdown for selecting a text file (topic) -->
+        <label for="file-select">Choose a topic (text file):</label>
         <select id="file-select">
             <option value="">--Select a file--</option>
             <!-- Options will be populated dynamically via JavaScript -->
@@ -28,10 +28,23 @@
 
         <!-- Input Field for Message -->
         <textarea id="message-input" rows="3" cols="40" placeholder="Type your message..."></textarea><br>
+        
+        <!-- File Upload Section -->
+        <div class="file-upload-section">
+            <label for="file-upload">Upload an Image:</label>
+            <input type="file" id="file-upload" accept="image/*" />
+        </div>
+        
+        <!-- Image Preview Section -->
+        <div class="image-preview-container">
+            <img id="image-preview" src="" alt="Image preview will appear here" />
+            <span class="remove-preview">&times;</span> <!-- Red X button -->
+        </div>
+        
+        <!-- Send Button -->
         <button class="send-button">Send Message</button>
     </div>
 
-    <!-- Link to the main JavaScript file -->
     <script type="module" src="{{ url_for('static', filename='js/chatbox.js') }}"></script>
 </body>
 </html>

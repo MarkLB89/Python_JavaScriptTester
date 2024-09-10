@@ -22,3 +22,37 @@ textarea {
     border-radius: 4px;
     border: 1px solid #ccc;
 }
+/* Add styles for image preview container */
+.image-preview-container {
+    position: relative;
+    display: inline-block;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#image-preview {
+    max-width: 100%;
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the red X (remove-preview) button */
+.remove-preview {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 2px 5px;
+    font-size: 12px;
+    display: none; /* Initially hidden */
+}
+
+/* Ensure the X button shows when the image is previewed */
+.image-preview-container img[src]:not([src=""]) + .remove-preview {
+    display: block;
+}
