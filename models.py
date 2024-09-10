@@ -108,7 +108,7 @@ def process_question_with_entities(txt_filename, question):
             passage = text[start_index:end_index]
 
             # Print extracted passage for debugging
-            print(f"Extracted passage: {passage}")
+            #print(f"Extracted passage: {passage}")
 
             # Generate the answer using the BERT model
             answer = generate_answer(question, passage)
