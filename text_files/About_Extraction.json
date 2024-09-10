@@ -1,26 +1,266 @@
 [
     {
-        "text": "Mark",
-        "label": "PERSON",
-        "start_char": 0,
-        "end_char": 4
-    },
-    {
         "text": "Buddie",
         "label": "PERSON",
-        "start_char": 23,
-        "end_char": 29
+        "start_char": 25,
+        "end_char": 31
     },
     {
-        "text": "1988",
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 298,
+        "end_char": 302
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 395,
+        "end_char": 399
+    },
+    {
+        "text": "AI",
+        "label": "ORG",
+        "start_char": 550,
+        "end_char": 552
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 688,
+        "end_char": 692
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 785,
+        "end_char": 789
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 885,
+        "end_char": 889
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "start_char": 904,
+        "end_char": 910
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "start_char": 1172,
+        "end_char": 1178
+    },
+    {
+        "text": "Larry Page",
+        "label": "PERSON",
+        "start_char": 1221,
+        "end_char": 1231
+    },
+    {
+        "text": "Sergey Brin",
+        "label": "PERSON",
+        "start_char": 1236,
+        "end_char": 1247
+    },
+    {
+        "text": "1998",
         "label": "DATE",
-        "start_char": 46,
-        "end_char": 50
+        "start_char": 1251,
+        "end_char": 1255
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 1390,
+        "end_char": 1394
+    },
+    {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 1406,
+        "end_char": 1409
+    },
+    {
+        "text": "Google",
+        "label": "ORG",
+        "start_char": 1413,
+        "end_char": 1419
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 1512,
+        "end_char": 1516
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 1925,
+        "end_char": 1929
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 1972,
+        "end_char": 1976
+    },
+    {
+        "text": "African American",
+        "label": "NORP",
+        "start_char": 1983,
+        "end_char": 1999
+    },
+    {
+        "text": "the late 1980s",
+        "label": "DATE",
+        "start_char": 2012,
+        "end_char": 2026
     },
     {
         "text": "the United States",
         "label": "GPE",
-        "start_char": 54,
-        "end_char": 71
+        "start_char": 2030,
+        "end_char": 2047
+    },
+    {
+        "text": "2024",
+        "label": "DATE",
+        "start_char": 2059,
+        "end_char": 2063
+    },
+    {
+        "text": "mid-30s",
+        "label": "DATE",
+        "start_char": 2078,
+        "end_char": 2085
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 2096,
+        "end_char": 2100
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 2218,
+        "end_char": 2222
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 2414,
+        "end_char": 2418
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 2721,
+        "end_char": 2725
+    },
+    {
+        "text": "One",
+        "label": "CARDINAL",
+        "start_char": 2746,
+        "end_char": 2749
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 2753,
+        "end_char": 2757
+    },
+    {
+        "text": "AI",
+        "label": "GPE",
+        "start_char": 2893,
+        "end_char": 2895
+    },
+    {
+        "text": "AI language",
+        "label": "EVENT",
+        "start_char": 2947,
+        "end_char": 2958
+    },
+    {
+        "text": "OpenAI",
+        "label": "GPE",
+        "start_char": 2976,
+        "end_char": 2982
+    },
+    {
+        "text": "ChatGPT",
+        "label": "PERSON",
+        "start_char": 2984,
+        "end_char": 2991
+    },
+    {
+        "text": "GPT",
+        "label": "ORG",
+        "start_char": 3008,
+        "end_char": 3011
+    },
+    {
+        "text": "Generative Pre-trained",
+        "label": "PERSON",
+        "start_char": 3013,
+        "end_char": 3035
+    },
+    {
+        "text": "AI",
+        "label": "ORG",
+        "start_char": 3521,
+        "end_char": 3523
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 3613,
+        "end_char": 3617
+    },
+    {
+        "text": "AI",
+        "label": "ORG",
+        "start_char": 4135,
+        "end_char": 4137
+    },
+    {
+        "text": "AI",
+        "label": "ORG",
+        "start_char": 4559,
+        "end_char": 4561
+    },
+    {
+        "text": "AI",
+        "label": "ORG",
+        "start_char": 4606,
+        "end_char": 4608
+    },
+    {
+        "text": "BERT",
+        "label": "ORG",
+        "start_char": 4921,
+        "end_char": 4925
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 4977,
+        "end_char": 4981
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 5224,
+        "end_char": 5228
+    },
+    {
+        "text": "Mark",
+        "label": "PERSON",
+        "start_char": 5580,
+        "end_char": 5584
     }
 ]

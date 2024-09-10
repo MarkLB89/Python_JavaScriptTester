@@ -1,3 +1,4 @@
+#models.py
 from transformers import BertTokenizer, TFBertForQuestionAnswering
 import tensorflow as tf
 import json
@@ -31,7 +32,7 @@ def load_text_file(filename):
 def generate_answer(question, passage):
     # Print question and passage for debugging
     print(f"Question: {question}")
-    print(f"Passage: {passage}")
+    #print(f"Passage: {passage}")
 
     inputs = tokenizer(
         question,
