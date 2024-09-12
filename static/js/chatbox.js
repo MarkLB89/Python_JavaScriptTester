@@ -11,7 +11,7 @@ export default class Chatbox {
 
     // Method to initialize the chatbox event listeners and load files
     initialize() {
-        const sendButton = document.querySelector('button');
+        const sendButton = document.querySelector('.send-button'); // Ensure the button has the correct class
         const fileInput = document.getElementById('file-upload');  // File input for image upload
         const fileSelect = document.getElementById('file-select'); // Dropdown for text file selection
         const removePreviewButton = document.querySelector('.remove-preview');  // Red X button for image removal
@@ -88,6 +88,10 @@ export default class Chatbox {
         this.ui.displayMessage(`You: ${question}`);
         this.ui.displayMessage(`Bot: ${answer}`);
         this.ui.clearMessageInput();
+
+        // Clear the image file after sending
+        this.imageFile = null;
+        this.ui.clearImagePreview();
     }
 }
 

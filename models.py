@@ -14,7 +14,7 @@ print("BERT model and tokenizer successfully loaded.")
 # Directory where the text files and JSON files are located
 text_files_dir = Path(__file__).parent / 'text_files'
 
-# Load entities from the JSON file
+# Load entities from the JSON file (e.g., About_Extraction.json)
 def load_entities_from_json(json_filename):
     json_path = text_files_dir / json_filename
     if json_path.exists():
@@ -30,10 +30,10 @@ def load_text_file(filename):
 
 # Function to generate answers using the BERT model
 def generate_answer(question, passage):
-    # Print question and passage for debugging
+    # Debug: Log the question and passage being processed
     print(f"Question: {question}")
     #print(f"Passage: {passage}")
-
+    
     inputs = tokenizer(
         question,
         passage,
@@ -53,18 +53,17 @@ def generate_answer(question, passage):
     answer_tokens = inputs['input_ids'][0][start_position:end_position]
     answer = tokenizer.decode(answer_tokens)
 
-    # Print answer tokens and decoded answer for debugging
-    print(f"Answer tokens: {answer_tokens}")
-    print(f"Answer: {answer}")
-
-    # Remove [SEP] token from the answer
+    # Clean up the answer by removing special tokens or unnecessary parts
     answer = answer.replace("[SEP]", "").strip()
 
-    # Remove the question from the answer if necessary
+    # Debug: Print the final generated answer
+    print(f"Generated Answer: {answer}")
+
+    # Remove the question from the answer if necessary (redundant answers)
     if answer.lower().startswith(question.lower()):
         answer = answer[len(question):].strip()
 
-    # Ensure a proper sentence is returned
+    # Ensure a proper sentence structure in the response
     if ',,' in answer:
         response = answer.split(',,')[0].strip() + ','
     elif ',' in answer:
@@ -80,7 +79,7 @@ def generate_answer(question, passage):
 
 # Function to use entities to find the relevant part of the text and answer the question
 def process_question_with_entities(txt_filename, question):
-    # Load the corresponding JSON file for entities
+    # Load the corresponding JSON file for entities (e.g., About_Extraction.json)
     json_filename = txt_filename.replace('.txt', '_Extraction.json')
     entities = load_entities_from_json(json_filename)
 
@@ -93,22 +92,22 @@ def process_question_with_entities(txt_filename, question):
 
     # Search for relevant entities in the question
     for entity in entities:
+        # If the question contains the entity's "text" value (e.g., "Mark" or "BERT")
         if entity['text'].lower() in question.lower():
-            # Debug: Print the keyword (entity) found in the question
-            print(f"Matched entity found in question: {entity['text']}")
+            # Debug: Log the matched entity found in the question
+            #print(f"Matched entity found in question: {entity['text']}")
 
-            # If entity is found in the question, extract a larger part of the text for more context
-            start_index = text.lower().find(entity['text'].lower())
-            # Extract the next sentence or paragraph
-            end_index = text.find('.', start_index) + 100  # Extend the context by 100 characters after the period
+            # Use the start_char and end_char to extract the specific passage
+            start_index = entity['start_char']
+            end_index = entity['end_char'] + 100  # Extend the context by 100 characters beyond the entity
 
             # Ensure valid indices
-            if end_index == -1:
+            if end_index > len(text):
                 end_index = len(text)
             passage = text[start_index:end_index]
 
-            # Print extracted passage for debugging
-            #print(f"Extracted passage: {passage}")
+            # Debug: Log the extracted passage based on the entity
+            #print(f"Extracted passage for {entity['text']}: {passage}")
 
             # Generate the answer using the BERT model
             answer = generate_answer(question, passage)
