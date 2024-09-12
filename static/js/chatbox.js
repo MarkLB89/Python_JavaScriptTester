@@ -1,4 +1,3 @@
-// /workspaces/Python_JavaScriptTester/static/js/chatbox.js
 import API from './api.js';
 import UI from './ui.js';
 
@@ -43,6 +42,7 @@ export default class Chatbox {
     removeImagePreview() {
         this.imageFile = null; // Clear the image file from memory
         this.ui.clearImagePreview(); // Clear image preview from UI
+        document.getElementById('file-upload').value = ''; // Clear the file input
     }
 
     // Method to handle sending a message, selected text file, and optionally an image
@@ -55,25 +55,25 @@ export default class Chatbox {
         console.log("Selected File:", selectedFile);
         console.log("Image File:", this.imageFile);
 
-        // Case 1: Message, text file, and image
-        if (messageInput && selectedFile && this.imageFile) {
-            this.api.sendMessageWithImage(messageInput, selectedFile, this.imageFile)
-                .then(response => this.handleResponse(response))
-                .catch(error => console.error("Error sending message, file, and image:", error));
-        }
-        // Case 2: Only message and selected text file
-        else if (messageInput && selectedFile) {
+        // Case 1: Both message and selected file (i.e., text file)
+        if (messageInput && selectedFile) {
             this.api.sendMessage(messageInput, selectedFile)
                 .then(response => this.handleResponse(response))
                 .catch(error => console.error("Error sending message and file:", error));
         }
-        // Case 3: Only image
+        // Case 2: Image (without a message)
         else if (!messageInput && this.imageFile) {
             this.api.sendImage(this.imageFile)
                 .then(response => this.handleResponse(response))
                 .catch(error => console.error("Error sending image:", error));
         }
-        // Case 4: Neither message, file, nor image
+        // Case 3: Both message and image
+        else if (messageInput && this.imageFile) {
+            this.api.sendMessageWithImage(messageInput, selectedFile, this.imageFile)
+                .then(response => this.handleResponse(response))
+                .catch(error => console.error("Error sending message, file, and image:", error));
+        }
+        // Case 4: Neither message nor image
         else {
             alert('Please enter a message, select a topic, or upload an image.');
         }
@@ -89,9 +89,18 @@ export default class Chatbox {
         this.ui.displayMessage(`Bot: ${answer}`);
         this.ui.clearMessageInput();
 
+        // Check if image processing response exists
+        if (response.object_detection) {
+            this.ui.displayMessage(`Bot (Image Detection): ${response.object_detection}`);
+        }
+        if (response.extracted_text) {
+            this.ui.displayMessage(`Bot (Extracted Text): ${response.extracted_text}`);
+        }
+
         // Clear the image file after sending
         this.imageFile = null;
         this.ui.clearImagePreview();
+        document.getElementById('file-upload').value = ''; // Clear the file input after sending the message
     }
 }
 

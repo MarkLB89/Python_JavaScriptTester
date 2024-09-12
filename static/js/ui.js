@@ -4,6 +4,7 @@ export default class UI {
         this.messageInput = document.getElementById('message-input');
         this.fileSelect = document.getElementById('file-select');
         this.imagePreview = document.getElementById('image-preview'); // Image preview element
+        this.fileInput = document.getElementById('file-upload'); // File input element for image upload
     }
 
     // Method to retrieve the user's message input
@@ -60,6 +61,11 @@ export default class UI {
         if (this.imagePreview) {
             this.imagePreview.src = ''; // Clear the image source
             this.imagePreview.style.display = 'none'; // Hide the image preview
+        }
+
+        // Clear the file input so it won't interfere with the next image upload
+        if (this.fileInput) {
+            this.fileInput.value = ''; // Reset the file input element
         }
     }
 }
