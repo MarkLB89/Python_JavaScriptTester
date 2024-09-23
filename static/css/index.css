@@ -1,32 +1,92 @@
+/* /workspaces/Python_JavaScriptTester/static/css/index.css */
+
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #f0f1f4e3, #babcbf);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
+/* Card Styles with Glassmorphism */
 .card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    padding-bottom: 20px;
-    max-width: 400px;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    max-width: 800px;
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px 40px;
+    color: #ffffff;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 h1 {
-    color: #333;
     text-align: center;
+    color: #510feb;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(148, 144, 144, 0.914);
 }
 
-button {
-    margin-top: 10px;
-    width: 100%;
-    cursor: pointer;
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+        padding: 20px 30px;
+    }
+
+    .send-button {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    #chat-display {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        margin: 10px;
+        padding: 15px 20px;
+    }
+
+    .send-button {
+        width: 100%;
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    #chat-display {
+        height: 250px;
+    }
+
+    #message-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .file-upload-section, .image-preview-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .image-preview-container img {
+        max-width: 100%;
+        height: auto;
+    }
 }

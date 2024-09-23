@@ -1,8 +1,8 @@
 #models.py
+from pathlib import Path
+import json
 from transformers import BertTokenizer, TFBertForQuestionAnswering
 import tensorflow as tf
-import json
-from pathlib import Path
 
 # Load the BERT model and tokenizer
 print("Loading the BERT large model...")

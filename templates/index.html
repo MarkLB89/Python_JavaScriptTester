@@ -1,6 +1,7 @@
 <!-- /workspaces/Python_JavaScriptTester/templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,22 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/chatbox.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/ui.css') }}">
 </head>
+
 <body>
     <div class="card">
         <h1>Chatbox</h1>
+
+        <!-- Error Message Container -->
+        <div id="error-message" class="error-message" style="display: none;" role="alert" aria-live="assertive">
+            <span class="close-error" aria-label="Close Error Message">&times;</span>
+            <span id="error-text"></span>
+        </div>
+
+        <!-- Loading Spinner Container -->
+        <div id="loading-spinner" class="loading-spinner" style="display: none;" role="status" aria-live="polite">
+            <div class="spinner"></div>
+            <span class="visually-hidden">Loading...</span>
+        </div>
 
         <!-- Dropdown for selecting a text file (topic) -->
         <label for="file-select">Choose a topic (text file):</label>
@@ -23,28 +37,30 @@
 
         <!-- Chat Display Area -->
         <div id="chat-display" class="chat-display">
-            <p>Chat messages will appear here...</p>
+            <p>Welcome to the Chatbox! Start your conversation here.</p>
         </div>
 
         <!-- Input Field for Message -->
         <textarea id="message-input" rows="3" cols="40" placeholder="Type your message..."></textarea><br>
-        
+
         <!-- File Upload Section -->
         <div class="file-upload-section">
             <label for="file-upload">Upload an Image:</label>
             <input type="file" id="file-upload" accept="image/*" />
         </div>
-        
+
         <!-- Image Preview Section -->
-        <div class="image-preview-container">
+        <div class="image-preview-container" style="display: none;">
             <img id="image-preview" src="" alt="Image preview will appear here" />
-            <span class="remove-preview">&times;</span> <!-- Red X button -->
+            <span class="remove-preview" aria-label="Remove Image Preview">&times;</span> <!-- Red X button -->
         </div>
-        
+
+
         <!-- Send Button -->
         <button class="send-button">Send Message</button>
     </div>
 
     <script type="module" src="{{ url_for('static', filename='js/chatbox.js') }}"></script>
 </body>
+
 </html>

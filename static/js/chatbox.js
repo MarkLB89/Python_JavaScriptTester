@@ -1,3 +1,5 @@
+// /workspaces/Python_JavaScriptTester/static/js/chatbox.js
+
 import API from './api.js';
 import UI from './ui.js';
 
@@ -6,13 +8,15 @@ export default class Chatbox {
         this.api = new API();
         this.ui = new UI();
         this.imageFile = null; // Store the selected image file
+        this.imageURL = null; // Store the Object URL of the uploaded image
     }
 
-    // Method to initialize the chatbox event listeners and load files
+    /**
+     * Initializes the chatbox by setting up event listeners and loading available files.
+     */
     initialize() {
         const sendButton = document.querySelector('.send-button'); // Ensure the button has the correct class
         const fileInput = document.getElementById('file-upload');  // File input for image upload
-        const fileSelect = document.getElementById('file-select'); // Dropdown for text file selection
         const removePreviewButton = document.querySelector('.remove-preview');  // Red X button for image removal
 
         sendButton.addEventListener('click', () => this.handleSendMessage());
@@ -24,29 +28,45 @@ export default class Chatbox {
             .then(files => {
                 this.ui.populateFileSelector(files);
             })
-            .catch(error => console.error("Error fetching files:", error));
+            .catch(error => {
+                console.error("Error fetching files:", error);
+                this.ui.displayError("Failed to load available files.");
+            });
     }
 
-    // Method to handle file selection (image upload)
+    /**
+     * Handles the selection of an image file, displaying a preview.
+     * @param {Event} event - The file input change event.
+     */
     handleFileSelection(event) {
         const file = event.target.files[0];
         if (file && file.type.startsWith('image/')) {
             this.imageFile = file; // Store the selected image file
-            this.ui.displayImagePreview(URL.createObjectURL(file)); // Display image preview
+            this.imageURL = URL.createObjectURL(file); // Create a temporary URL for the image
+            this.ui.displayImagePreview(this.imageURL); // Display image preview
+            this.ui.showImagePreview(); // Ensure the preview container is visible
         } else {
-            alert('Please select a valid image file.');
+            this.ui.displayError('Please select a valid image file.');
         }
     }
 
-    // Method to remove the image preview
+    /**
+     * Removes the currently selected image, clearing the preview and resetting the input.
+     */
     removeImagePreview() {
         this.imageFile = null; // Clear the image file from memory
+        if (this.imageURL) {
+            URL.revokeObjectURL(this.imageURL); // Release the Object URL
+            this.imageURL = null;
+        }
         this.ui.clearImagePreview(); // Clear image preview from UI
         document.getElementById('file-upload').value = ''; // Clear the file input
     }
 
-    // Method to handle sending a message, selected text file, and optionally an image
-    handleSendMessage() {
+    /**
+     * Handles sending a message, selected file (topic), and optionally an image to the backend.
+     */
+    async handleSendMessage() {
         const messageInput = this.ui.getMessageInput();
         const selectedFile = this.ui.getSelectedFile();
 
@@ -55,49 +75,115 @@ export default class Chatbox {
         console.log("Selected File:", selectedFile);
         console.log("Image File:", this.imageFile);
 
-        // Case 1: Both message and selected file (i.e., text file)
-        if (messageInput && selectedFile) {
-            this.api.sendMessage(messageInput, selectedFile)
-                .then(response => this.handleResponse(response))
-                .catch(error => console.error("Error sending message and file:", error));
-        }
-        // Case 2: Image (without a message)
-        else if (!messageInput && this.imageFile) {
-            this.api.sendImage(this.imageFile)
-                .then(response => this.handleResponse(response))
-                .catch(error => console.error("Error sending image:", error));
-        }
-        // Case 3: Both message and image
-        else if (messageInput && this.imageFile) {
-            this.api.sendMessageWithImage(messageInput, selectedFile, this.imageFile)
-                .then(response => this.handleResponse(response))
-                .catch(error => console.error("Error sending message, file, and image:", error));
-        }
-        // Case 4: Neither message nor image
-        else {
-            alert('Please enter a message, select a topic, or upload an image.');
+        // Show loading spinner and disable send button
+        this.ui.showLoading();
+        this.ui.disableSendButton();
+
+        try {
+            let response;
+
+            // Determine the type of request based on user inputs
+            if (messageInput && selectedFile && this.imageFile) {
+                // Case 3: Both message and image
+                response = await this.api.sendMessageWithImage(messageInput, selectedFile, this.imageFile);
+            } else if (messageInput && selectedFile) {
+                // Case 1: Message with selected file, without image
+                response = await this.api.sendMessage(messageInput, selectedFile);
+            } else if (this.imageFile) {
+                // Case 2: Image without a message
+                response = await this.api.sendImage(this.imageFile);
+            } else if (messageInput) {
+                // Case 4: Only message, without selecting a file
+                this.ui.displayError('Please select a file (topic) for your message.');
+                return;
+            } else {
+                // Case 5: Neither message nor image
+                this.ui.displayError('Please enter a message, select a topic, or upload an image.');
+                return;
+            }
+
+            // Handle the server response
+            this.handleResponse(response);
+        } catch (error) {
+            console.error("Error sending request:", error);
+            this.ui.displayError("An error occurred while processing your request. Please try again.");
+        } finally {
+            // Hide loading spinner and enable send button
+            this.ui.hideLoading();
+            this.ui.enableSendButton();
         }
     }
 
-    // Helper function to handle server response and display it in the chatbox
+    /**
+     * Processes the server response and displays the results in the chatbox.
+     * @param {Object} response - The JSON response from the backend.
+     */
     handleResponse(response) {
-        const question = response.question ? response.question : "Unknown question";
-        const answer = response.answer ? response.answer : "I couldn't find an answer.";
+        // Debugging: Log the response to inspect its structure
+        console.log("Server Response:", response);
 
-        // Display the question and answer in the chatbox
-        this.ui.displayMessage(`You: ${question}`);
-        this.ui.displayMessage(`Bot: ${answer}`);
+        // Display user's message and bot's answer if available
+        if (response.question && response.answer) {
+            this.ui.displayMessage(`You: ${response.question}`);
+            this.ui.displayMessage(`Bot: ${response.answer}`);
+        } else if (response.question) {
+            this.ui.displayMessage(`You: ${response.question}`);
+        } else if (response.answer) {
+            this.ui.displayMessage(`Bot: ${response.answer}`);
+        }
+
+        /* Display object detection results if available
+        if (response.object_detection) {
+            this.ui.displayMessage(`Bot: ${response.object_detection}`);
+        }
+
+        // Display extracted text if available
+        if (response.extracted_text) {
+            this.ui.displayMessage(`Bot: ${response.extracted_text}`);
+        }*/
+
+        // Optionally, display the image alongside the messages
+        if (response.object_detection || response.extracted_text) {
+            if (this.imageURL) {
+                // Create an image element
+                const imgElement = document.createElement('img');
+                imgElement.src = this.imageURL;
+                imgElement.alt = "Processed Image";
+                imgElement.classList.add('chat-image');
+
+                // Append the image to the chat display
+                this.ui.getChatDisplay().appendChild(imgElement);
+
+                // Optionally, append responses below the image
+                if (response.object_detection) {
+                    const detectionResponse = document.createElement('p');
+                    detectionResponse.textContent = `Bot: ${response.object_detection}`;
+                    detectionResponse.classList.add('chat-response');
+                    this.ui.getChatDisplay().appendChild(detectionResponse);
+                }
+
+                if (response.extracted_text) {
+                    const extractedText = document.createElement('p');
+                    extractedText.textContent = `Bot: ${response.extracted_text}`;
+                    extractedText.classList.add('chat-response');
+                    this.ui.getChatDisplay().appendChild(extractedText);
+                }
+
+                // Scroll to the bottom of the chat display
+                this.ui.getChatDisplay().scrollTop = this.ui.getChatDisplay().scrollHeight;
+
+                // Revoke the Object URL to free memory
+                imgElement.onload = () => {
+                    URL.revokeObjectURL(this.imageURL);
+                };
+                this.imageURL = null; // Reset the imageURL after revoking
+            }
+        }
+
+        // Clear the message input field
         this.ui.clearMessageInput();
 
-        // Check if image processing response exists
-        if (response.object_detection) {
-            this.ui.displayMessage(`Bot (Image Detection): ${response.object_detection}`);
-        }
-        if (response.extracted_text) {
-            this.ui.displayMessage(`Bot (Extracted Text): ${response.extracted_text}`);
-        }
-
-        // Clear the image file after sending
+        // Clear the image preview and file input
         this.imageFile = null;
         this.ui.clearImagePreview();
         document.getElementById('file-upload').value = ''; // Clear the file input after sending the message

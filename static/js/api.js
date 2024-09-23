@@ -19,10 +19,11 @@ export default class API {
     }
 
     // Method to send an image with a message
-    async sendMessageWithImage(message, imageFile) {
+    async sendMessageWithImage(message, selectedFile, imageFile) {
         const formData = new FormData();
 
         formData.append('message', message); // Include the message
+        formData.append('selected_file', selectedFile); // Include the selected file
         formData.append('file', imageFile);  // Include the image
 
         const response = await fetch('/process_input', {
