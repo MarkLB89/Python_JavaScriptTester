@@ -1,4 +1,4 @@
-# Python_ReactTester
+# Python_JavaScriptTester
 Overview of all the files you've provided for the web application. 
 ---
 
