@@ -5,7 +5,7 @@ Overview of all the files you've provided for the web application.
 ## **Project Structure Overview**
 
 ```
-PYTHON_JAVASCRIPTTESTER [CODESPACES: FLUFFY SPACE DISCO]
+PYTHON_JAVASCRIPTTESTER [CODESPACES: REIMAGINED DOODLE]
 │
 ├── .vscode
 │
@@ -26,6 +26,10 @@ PYTHON_JAVASCRIPTTESTER [CODESPACES: FLUFFY SPACE DISCO]
 ├── text_files
 │   ├── About.txt
 │   ├── About_Extraction.json
+│   ├── Chat.txt
+│   ├── Chat_Extraction.json
+│   ├── Chat_search.txt
+│   ├── Chat_search_Extraction.json
 │   ├── Story1.txt
 │   ├── Story1_Extraction.json
 │
@@ -37,6 +41,7 @@ PYTHON_JAVASCRIPTTESTER [CODESPACES: FLUFFY SPACE DISCO]
 ├── models.py
 ├── open_images_classes.json
 ├── README.md
+
 ```
 
 ---
