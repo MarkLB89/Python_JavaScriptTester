@@ -1,0 +1,3332 @@
+[
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 0,
+        "end_char": 6
+    },
+    {
+        "text": "2:29",
+        "label": "GPE",
+        "start_char": 8,
+        "end_char": 12
+    },
+    {
+        "text": "WhatsApp",
+        "label": "ORG",
+        "start_char": 101,
+        "end_char": 109
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 158,
+        "end_char": 164
+    },
+    {
+        "text": "2:29",
+        "label": "GPE",
+        "start_char": 166,
+        "end_char": 170
+    },
+    {
+        "text": "wassup\n",
+        "label": "PERSON",
+        "start_char": 182,
+        "end_char": 189
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 189,
+        "end_char": 195
+    },
+    {
+        "text": "2:29",
+        "label": "GPE",
+        "start_char": 197,
+        "end_char": 201
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 226,
+        "end_char": 232
+    },
+    {
+        "text": "2:30\u202fPM",
+        "label": "TIME",
+        "start_char": 234,
+        "end_char": 241
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 256,
+        "end_char": 262
+    },
+    {
+        "text": "2:30\u202fPM",
+        "label": "TIME",
+        "start_char": 264,
+        "end_char": 271
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 295,
+        "end_char": 301
+    },
+    {
+        "text": "2:31\u202fPM",
+        "label": "TIME",
+        "start_char": 303,
+        "end_char": 310
+    },
+    {
+        "text": "Wassup",
+        "label": "ORG",
+        "start_char": 319,
+        "end_char": 325
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 326,
+        "end_char": 332
+    },
+    {
+        "text": "2:31\u202fPM - Mark:",
+        "label": "TIME",
+        "start_char": 334,
+        "end_char": 349
+    },
+    {
+        "text": "9k",
+        "label": "CARDINAL",
+        "start_char": 374,
+        "end_char": 376
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 381,
+        "end_char": 387
+    },
+    {
+        "text": "2:32\u202fPM",
+        "label": "TIME",
+        "start_char": 389,
+        "end_char": 396
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 411,
+        "end_char": 417
+    },
+    {
+        "text": "2:32\u202fPM",
+        "label": "TIME",
+        "start_char": 419,
+        "end_char": 426
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 513,
+        "end_char": 519
+    },
+    {
+        "text": "2:32\u202fPM",
+        "label": "TIME",
+        "start_char": 521,
+        "end_char": 528
+    },
+    {
+        "text": "\ud83d\ude4f\ud83d\ude4f\n",
+        "label": "ORG",
+        "start_char": 554,
+        "end_char": 557
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 557,
+        "end_char": 563
+    },
+    {
+        "text": "2:33\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 565,
+        "end_char": 579
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 661,
+        "end_char": 667
+    },
+    {
+        "text": "2:34\u202fPM",
+        "label": "TIME",
+        "start_char": 669,
+        "end_char": 676
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 723,
+        "end_char": 729
+    },
+    {
+        "text": "2:34\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 731,
+        "end_char": 745
+    },
+    {
+        "text": "Mpesa",
+        "label": "PERSON",
+        "start_char": 759,
+        "end_char": 764
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 767,
+        "end_char": 773
+    },
+    {
+        "text": "2:36\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 775,
+        "end_char": 789
+    },
+    {
+        "text": "a few minutes",
+        "label": "TIME",
+        "start_char": 819,
+        "end_char": 832
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 870,
+        "end_char": 876
+    },
+    {
+        "text": "2:37\u202fPM",
+        "label": "TIME",
+        "start_char": 878,
+        "end_char": 885
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 900,
+        "end_char": 906
+    },
+    {
+        "text": "2:37\u202fPM",
+        "label": "TIME",
+        "start_char": 908,
+        "end_char": 915
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 936,
+        "end_char": 942
+    },
+    {
+        "text": "2:37\u202fPM",
+        "label": "TIME",
+        "start_char": 944,
+        "end_char": 951
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 976,
+        "end_char": 982
+    },
+    {
+        "text": "2:37\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 984,
+        "end_char": 998
+    },
+    {
+        "text": "Mpesa",
+        "label": "NORP",
+        "start_char": 1009,
+        "end_char": 1014
+    },
+    {
+        "text": "7/3/23",
+        "label": "CARDINAL",
+        "start_char": 1022,
+        "end_char": 1028
+    },
+    {
+        "text": "2:37\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 1030,
+        "end_char": 1044
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1072,
+        "end_char": 1078
+    },
+    {
+        "text": "2:38\u202fPM",
+        "label": "TIME",
+        "start_char": 1080,
+        "end_char": 1087
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1103,
+        "end_char": 1109
+    },
+    {
+        "text": "2:39\u202fPM",
+        "label": "TIME",
+        "start_char": 1111,
+        "end_char": 1118
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1188,
+        "end_char": 1194
+    },
+    {
+        "text": "2:41\u202fPM",
+        "label": "TIME",
+        "start_char": 1196,
+        "end_char": 1203
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1228,
+        "end_char": 1234
+    },
+    {
+        "text": "2:42\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 1236,
+        "end_char": 1250
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1288,
+        "end_char": 1294
+    },
+    {
+        "text": "2:42\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 1296,
+        "end_char": 1310
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1351,
+        "end_char": 1357
+    },
+    {
+        "text": "2:43\u202fPM",
+        "label": "TIME",
+        "start_char": 1359,
+        "end_char": 1366
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1406,
+        "end_char": 1412
+    },
+    {
+        "text": "2:43\u202fPM",
+        "label": "TIME",
+        "start_char": 1414,
+        "end_char": 1421
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1466,
+        "end_char": 1472
+    },
+    {
+        "text": "2:43\u202fPM",
+        "label": "TIME",
+        "start_char": 1474,
+        "end_char": 1481
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1497,
+        "end_char": 1503
+    },
+    {
+        "text": "2:43\u202fPM",
+        "label": "TIME",
+        "start_char": 1505,
+        "end_char": 1512
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1527,
+        "end_char": 1533
+    },
+    {
+        "text": "2:45\u202fPM",
+        "label": "TIME",
+        "start_char": 1535,
+        "end_char": 1542
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1640,
+        "end_char": 1646
+    },
+    {
+        "text": "2:44\u202fPM",
+        "label": "TIME",
+        "start_char": 1648,
+        "end_char": 1655
+    },
+    {
+        "text": "Jecinta njeri munene\n",
+        "label": "PERSON",
+        "start_char": 1671,
+        "end_char": 1692
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1719,
+        "end_char": 1725
+    },
+    {
+        "text": "2:45\u202fPM",
+        "label": "TIME",
+        "start_char": 1727,
+        "end_char": 1734
+    },
+    {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 1757,
+        "end_char": 1762
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1788,
+        "end_char": 1794
+    },
+    {
+        "text": "2:46\u202fPM",
+        "label": "TIME",
+        "start_char": 1796,
+        "end_char": 1803
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1845,
+        "end_char": 1851
+    },
+    {
+        "text": "2:46\u202fPM",
+        "label": "TIME",
+        "start_char": 1853,
+        "end_char": 1860
+    },
+    {
+        "text": "Two",
+        "label": "CARDINAL",
+        "start_char": 1871,
+        "end_char": 1874
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1878,
+        "end_char": 1884
+    },
+    {
+        "text": "2:46\u202fPM",
+        "label": "TIME",
+        "start_char": 1886,
+        "end_char": 1893
+    },
+    {
+        "text": "7/3/23",
+        "label": "CARDINAL",
+        "start_char": 1950,
+        "end_char": 1956
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 1958,
+        "end_char": 1965
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 1980,
+        "end_char": 1986
+    },
+    {
+        "text": "2:47\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 1988,
+        "end_char": 2002
+    },
+    {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 2004,
+        "end_char": 2007
+    },
+    {
+        "text": "7/3/23",
+        "label": "CARDINAL",
+        "start_char": 2014,
+        "end_char": 2020
+    },
+    {
+        "text": "2:47\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 2022,
+        "end_char": 2036
+    },
+    {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 2038,
+        "end_char": 2043
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2044,
+        "end_char": 2050
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2052,
+        "end_char": 2059
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2073,
+        "end_char": 2079
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2081,
+        "end_char": 2088
+    },
+    {
+        "text": "Jecinta",
+        "label": "GPE",
+        "start_char": 2099,
+        "end_char": 2106
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2107,
+        "end_char": 2113
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2115,
+        "end_char": 2122
+    },
+    {
+        "text": "Munene\n7/3/23",
+        "label": "PERSON",
+        "start_char": 2133,
+        "end_char": 2146
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2148,
+        "end_char": 2155
+    },
+    {
+        "text": "Njeri",
+        "label": "ORG",
+        "start_char": 2173,
+        "end_char": 2178
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2179,
+        "end_char": 2185
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2187,
+        "end_char": 2194
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2222,
+        "end_char": 2228
+    },
+    {
+        "text": "2:47\u202fPM",
+        "label": "TIME",
+        "start_char": 2230,
+        "end_char": 2237
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2259,
+        "end_char": 2265
+    },
+    {
+        "text": "2:48\u202fPM",
+        "label": "TIME",
+        "start_char": 2267,
+        "end_char": 2274
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2290,
+        "end_char": 2296
+    },
+    {
+        "text": "2:50\u202fPM",
+        "label": "TIME",
+        "start_char": 2298,
+        "end_char": 2305
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2330,
+        "end_char": 2336
+    },
+    {
+        "text": "2:51\u202fPM",
+        "label": "TIME",
+        "start_char": 2338,
+        "end_char": 2345
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2371,
+        "end_char": 2377
+    },
+    {
+        "text": "2:55\u202fPM",
+        "label": "TIME",
+        "start_char": 2379,
+        "end_char": 2386
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2411,
+        "end_char": 2417
+    },
+    {
+        "text": "2:56\u202f",
+        "label": "TIME",
+        "start_char": 2419,
+        "end_char": 2424
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2453,
+        "end_char": 2459
+    },
+    {
+        "text": "3:00\u202fPM",
+        "label": "TIME",
+        "start_char": 2461,
+        "end_char": 2468
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2501,
+        "end_char": 2507
+    },
+    {
+        "text": "3:03\u202fPM",
+        "label": "TIME",
+        "start_char": 2509,
+        "end_char": 2516
+    },
+    {
+        "text": "30min to a hour",
+        "label": "TIME",
+        "start_char": 2525,
+        "end_char": 2540
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2541,
+        "end_char": 2547
+    },
+    {
+        "text": "3:03\u202fPM",
+        "label": "TIME",
+        "start_char": 2549,
+        "end_char": 2556
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2577,
+        "end_char": 2583
+    },
+    {
+        "text": "3:03\u202fPM",
+        "label": "TIME",
+        "start_char": 2585,
+        "end_char": 2592
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2621,
+        "end_char": 2627
+    },
+    {
+        "text": "3:23\u202fPM",
+        "label": "TIME",
+        "start_char": 2629,
+        "end_char": 2636
+    },
+    {
+        "text": "western union",
+        "label": "ORG",
+        "start_char": 2645,
+        "end_char": 2658
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2659,
+        "end_char": 2665
+    },
+    {
+        "text": "3:24\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 2667,
+        "end_char": 2683
+    },
+    {
+        "text": "Western Union",
+        "label": "ORG",
+        "start_char": 2740,
+        "end_char": 2753
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2754,
+        "end_char": 2760
+    },
+    {
+        "text": "3:24\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 2762,
+        "end_char": 2778
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2830,
+        "end_char": 2836
+    },
+    {
+        "text": "3:27\u202fPM",
+        "label": "TIME",
+        "start_char": 2838,
+        "end_char": 2845
+    },
+    {
+        "text": "America",
+        "label": "GPE",
+        "start_char": 2882,
+        "end_char": 2889
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2890,
+        "end_char": 2896
+    },
+    {
+        "text": "3:28\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 2898,
+        "end_char": 2914
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2932,
+        "end_char": 2938
+    },
+    {
+        "text": "3:31\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 2940,
+        "end_char": 2954
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 2985,
+        "end_char": 2991
+    },
+    {
+        "text": "3:33\u202fPM",
+        "label": "TIME",
+        "start_char": 2993,
+        "end_char": 3000
+    },
+    {
+        "text": "30min",
+        "label": "CARDINAL",
+        "start_char": 3089,
+        "end_char": 3094
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3110,
+        "end_char": 3116
+    },
+    {
+        "text": "3:36\u202fPM - Mark: Probably",
+        "label": "TIME",
+        "start_char": 3118,
+        "end_char": 3142
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3174,
+        "end_char": 3180
+    },
+    {
+        "text": "3:38\u202fPM",
+        "label": "TIME",
+        "start_char": 3182,
+        "end_char": 3189
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3267,
+        "end_char": 3273
+    },
+    {
+        "text": "3:39\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 3275,
+        "end_char": 3291
+    },
+    {
+        "text": "God",
+        "label": "PERSON",
+        "start_char": 3326,
+        "end_char": 3329
+    },
+    {
+        "text": "\ud83d\ude4f",
+        "label": "ORG",
+        "start_char": 3340,
+        "end_char": 3341
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3342,
+        "end_char": 3348
+    },
+    {
+        "text": "3:40\u202fPM",
+        "label": "TIME",
+        "start_char": 3350,
+        "end_char": 3357
+    },
+    {
+        "text": "\u2764",
+        "label": "CARDINAL",
+        "start_char": 3414,
+        "end_char": 3415
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3417,
+        "end_char": 3423
+    },
+    {
+        "text": "3:41\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 3425,
+        "end_char": 3441
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3487,
+        "end_char": 3493
+    },
+    {
+        "text": "3:41\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 3495,
+        "end_char": 3511
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3543,
+        "end_char": 3549
+    },
+    {
+        "text": "3:43\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 3551,
+        "end_char": 3565
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3686,
+        "end_char": 3692
+    },
+    {
+        "text": "3:44\u202fPM",
+        "label": "TIME",
+        "start_char": 3694,
+        "end_char": 3701
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3746,
+        "end_char": 3752
+    },
+    {
+        "text": "3:52\u202fPM",
+        "label": "TIME",
+        "start_char": 3754,
+        "end_char": 3761
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3817,
+        "end_char": 3823
+    },
+    {
+        "text": "3:53\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 3825,
+        "end_char": 3839
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 3923,
+        "end_char": 3929
+    },
+    {
+        "text": "3:56\u202fPM",
+        "label": "TIME",
+        "start_char": 3931,
+        "end_char": 3938
+    },
+    {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 3983,
+        "end_char": 3986
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4000,
+        "end_char": 4006
+    },
+    {
+        "text": "3:56\u202fPM",
+        "label": "TIME",
+        "start_char": 4008,
+        "end_char": 4015
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4054,
+        "end_char": 4060
+    },
+    {
+        "text": "4:01\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4062,
+        "end_char": 4078
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4110,
+        "end_char": 4116
+    },
+    {
+        "text": "4:01\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4118,
+        "end_char": 4134
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4157,
+        "end_char": 4163
+    },
+    {
+        "text": "4:23\u202fPM",
+        "label": "TIME",
+        "start_char": 4165,
+        "end_char": 4172
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4289,
+        "end_char": 4295
+    },
+    {
+        "text": "4:28\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4297,
+        "end_char": 4313
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4327,
+        "end_char": 4333
+    },
+    {
+        "text": "4:28\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4335,
+        "end_char": 4351
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4389,
+        "end_char": 4395
+    },
+    {
+        "text": "5:53\u202fPM",
+        "label": "TIME",
+        "start_char": 4397,
+        "end_char": 4404
+    },
+    {
+        "text": "today",
+        "label": "DATE",
+        "start_char": 4444,
+        "end_char": 4449
+    },
+    {
+        "text": "\ud83e\udd70",
+        "label": "NORP",
+        "start_char": 4450,
+        "end_char": 4451
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4454,
+        "end_char": 4460
+    },
+    {
+        "text": "5:53\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4462,
+        "end_char": 4478
+    },
+    {
+        "text": "today",
+        "label": "DATE",
+        "start_char": 4498,
+        "end_char": 4503
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4505,
+        "end_char": 4511
+    },
+    {
+        "text": "5:53\u202fPM",
+        "label": "TIME",
+        "start_char": 4513,
+        "end_char": 4520
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4570,
+        "end_char": 4576
+    },
+    {
+        "text": "5:53\u202fPM - Mark:",
+        "label": "TIME",
+        "start_char": 4578,
+        "end_char": 4593
+    },
+    {
+        "text": "7/3/23",
+        "label": "DATE",
+        "start_char": 4598,
+        "end_char": 4604
+    },
+    {
+        "text": "5:53\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 4606,
+        "end_char": 4622
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4640,
+        "end_char": 4646
+    },
+    {
+        "text": "5:38\u202fAM",
+        "label": "TIME",
+        "start_char": 4648,
+        "end_char": 4655
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4675,
+        "end_char": 4681
+    },
+    {
+        "text": "5:47\u202fAM",
+        "label": "TIME",
+        "start_char": 4683,
+        "end_char": 4690
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4727,
+        "end_char": 4733
+    },
+    {
+        "text": "6:16\u202fAM",
+        "label": "TIME",
+        "start_char": 4735,
+        "end_char": 4742
+    },
+    {
+        "text": "Cold",
+        "label": "EVENT",
+        "start_char": 4783,
+        "end_char": 4787
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4793,
+        "end_char": 4799
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4866,
+        "end_char": 4872
+    },
+    {
+        "text": "6:20\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 4874,
+        "end_char": 4888
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4913,
+        "end_char": 4919
+    },
+    {
+        "text": "6:27\u202fAM",
+        "label": "TIME",
+        "start_char": 4921,
+        "end_char": 4928
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 4983,
+        "end_char": 4989
+    },
+    {
+        "text": "7:03\u202fAM",
+        "label": "TIME",
+        "start_char": 4991,
+        "end_char": 4998
+    },
+    {
+        "text": "LOL",
+        "label": "ORG",
+        "start_char": 5022,
+        "end_char": 5025
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5026,
+        "end_char": 5032
+    },
+    {
+        "text": "7:03\u202fAM",
+        "label": "TIME",
+        "start_char": 5034,
+        "end_char": 5041
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5078,
+        "end_char": 5084
+    },
+    {
+        "text": "7:03",
+        "label": "DATE",
+        "start_char": 5086,
+        "end_char": 5090
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5112,
+        "end_char": 5118
+    },
+    {
+        "text": "7:04\u202fAM",
+        "label": "TIME",
+        "start_char": 5120,
+        "end_char": 5127
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5181,
+        "end_char": 5187
+    },
+    {
+        "text": "7:28",
+        "label": "DATE",
+        "start_char": 5189,
+        "end_char": 5193
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5225,
+        "end_char": 5231
+    },
+    {
+        "text": "7:30\u202fAM",
+        "label": "TIME",
+        "start_char": 5233,
+        "end_char": 5240
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5282,
+        "end_char": 5288
+    },
+    {
+        "text": "7:31\u202f",
+        "label": "TIME",
+        "start_char": 5290,
+        "end_char": 5295
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5334,
+        "end_char": 5340
+    },
+    {
+        "text": "7:43\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 5342,
+        "end_char": 5356
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5429,
+        "end_char": 5435
+    },
+    {
+        "text": "7:51",
+        "label": "DATE",
+        "start_char": 5437,
+        "end_char": 5441
+    },
+    {
+        "text": "Lol",
+        "label": "PERSON",
+        "start_char": 5455,
+        "end_char": 5458
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5501,
+        "end_char": 5507
+    },
+    {
+        "text": "9:43",
+        "label": "GPE",
+        "start_char": 5509,
+        "end_char": 5513
+    },
+    {
+        "text": "2021we",
+        "label": "ORDINAL",
+        "start_char": 5568,
+        "end_char": 5574
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "start_char": 5867,
+        "end_char": 5871
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 5873,
+        "end_char": 5879
+    },
+    {
+        "text": "9:44\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 5881,
+        "end_char": 5895
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6013,
+        "end_char": 6019
+    },
+    {
+        "text": "9:44\u202fAM",
+        "label": "TIME",
+        "start_char": 6021,
+        "end_char": 6028
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6091,
+        "end_char": 6097
+    },
+    {
+        "text": "9:45\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 6099,
+        "end_char": 6113
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6141,
+        "end_char": 6147
+    },
+    {
+        "text": "9:45\u202fAM",
+        "label": "TIME",
+        "start_char": 6149,
+        "end_char": 6156
+    },
+    {
+        "text": "Lol",
+        "label": "PERSON",
+        "start_char": 6167,
+        "end_char": 6170
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6191,
+        "end_char": 6197
+    },
+    {
+        "text": "9:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 6199,
+        "end_char": 6213
+    },
+    {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 6218,
+        "end_char": 6223
+    },
+    {
+        "text": "2021",
+        "label": "DATE",
+        "start_char": 6227,
+        "end_char": 6231
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6344,
+        "end_char": 6350
+    },
+    {
+        "text": "9:49\u202fAM",
+        "label": "TIME",
+        "start_char": 6352,
+        "end_char": 6359
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6388,
+        "end_char": 6394
+    },
+    {
+        "text": "9:50\u202fAM",
+        "label": "TIME",
+        "start_char": 6396,
+        "end_char": 6403
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6440,
+        "end_char": 6446
+    },
+    {
+        "text": "9:50\u202fAM",
+        "label": "TIME",
+        "start_char": 6448,
+        "end_char": 6455
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6486,
+        "end_char": 6492
+    },
+    {
+        "text": "9:51\u202fAM - Mark",
+        "label": "DATE",
+        "start_char": 6494,
+        "end_char": 6508
+    },
+    {
+        "text": "about 2hours",
+        "label": "CARDINAL",
+        "start_char": 6535,
+        "end_char": 6547
+    },
+    {
+        "text": "the week",
+        "label": "DATE",
+        "start_char": 6568,
+        "end_char": 6576
+    },
+    {
+        "text": "every two days",
+        "label": "DATE",
+        "start_char": 6586,
+        "end_char": 6600
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6687,
+        "end_char": 6693
+    },
+    {
+        "text": "9:54\u202fAM",
+        "label": "TIME",
+        "start_char": 6695,
+        "end_char": 6702
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6853,
+        "end_char": 6859
+    },
+    {
+        "text": "9:56\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 6861,
+        "end_char": 6875
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6883,
+        "end_char": 6889
+    },
+    {
+        "text": "9:57\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 6891,
+        "end_char": 6905
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 6996,
+        "end_char": 7002
+    },
+    {
+        "text": "9:58\u202fAM",
+        "label": "TIME",
+        "start_char": 7004,
+        "end_char": 7011
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7031,
+        "end_char": 7037
+    },
+    {
+        "text": "9:58\u202fAM",
+        "label": "TIME",
+        "start_char": 7039,
+        "end_char": 7046
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7086,
+        "end_char": 7092
+    },
+    {
+        "text": "9:59\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 7094,
+        "end_char": 7108
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7162,
+        "end_char": 7168
+    },
+    {
+        "text": "9:59\u202fAM",
+        "label": "TIME",
+        "start_char": 7170,
+        "end_char": 7177
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7232,
+        "end_char": 7238
+    },
+    {
+        "text": "10:00\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 7240,
+        "end_char": 7255
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7337,
+        "end_char": 7343
+    },
+    {
+        "text": "10:00\u202fAM",
+        "label": "TIME",
+        "start_char": 7345,
+        "end_char": 7353
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7374,
+        "end_char": 7380
+    },
+    {
+        "text": "4:43\u202fPM",
+        "label": "TIME",
+        "start_char": 7382,
+        "end_char": 7389
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7416,
+        "end_char": 7422
+    },
+    {
+        "text": "4:44\u202fPM - Mark: smh\n",
+        "label": "TIME",
+        "start_char": 7424,
+        "end_char": 7444
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7444,
+        "end_char": 7450
+    },
+    {
+        "text": "4:44\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 7452,
+        "end_char": 7466
+    },
+    {
+        "text": "PayPal",
+        "label": "ORG",
+        "start_char": 7514,
+        "end_char": 7520
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7521,
+        "end_char": 7527
+    },
+    {
+        "text": "4:45\u202fPM",
+        "label": "TIME",
+        "start_char": 7529,
+        "end_char": 7536
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7593,
+        "end_char": 7599
+    },
+    {
+        "text": "4:45\u202fPM",
+        "label": "TIME",
+        "start_char": 7601,
+        "end_char": 7608
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7671,
+        "end_char": 7677
+    },
+    {
+        "text": "4:45\u202fPM",
+        "label": "TIME",
+        "start_char": 7679,
+        "end_char": 7686
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7700,
+        "end_char": 7706
+    },
+    {
+        "text": "4:46\u202fPM",
+        "label": "TIME",
+        "start_char": 7708,
+        "end_char": 7715
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7810,
+        "end_char": 7816
+    },
+    {
+        "text": "4:47\u202fPM",
+        "label": "TIME",
+        "start_char": 7818,
+        "end_char": 7825
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7862,
+        "end_char": 7868
+    },
+    {
+        "text": "4:47\u202fPM",
+        "label": "TIME",
+        "start_char": 7870,
+        "end_char": 7877
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 7931,
+        "end_char": 7937
+    },
+    {
+        "text": "4:48\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 7939,
+        "end_char": 7955
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8025,
+        "end_char": 8031
+    },
+    {
+        "text": "4:49\u202f",
+        "label": "TIME",
+        "start_char": 8033,
+        "end_char": 8038
+    },
+    {
+        "text": "PayPal",
+        "label": "ORG",
+        "start_char": 8082,
+        "end_char": 8088
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8095,
+        "end_char": 8101
+    },
+    {
+        "text": "5:16\u202fPM - Mark",
+        "label": "TIME",
+        "start_char": 8103,
+        "end_char": 8117
+    },
+    {
+        "text": "2-3  days",
+        "label": "DATE",
+        "start_char": 8141,
+        "end_char": 8150
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8163,
+        "end_char": 8169
+    },
+    {
+        "text": "5:17\u202fPM",
+        "label": "TIME",
+        "start_char": 8171,
+        "end_char": 8178
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8212,
+        "end_char": 8218
+    },
+    {
+        "text": "5:17\u202fPM",
+        "label": "TIME",
+        "start_char": 8220,
+        "end_char": 8227
+    },
+    {
+        "text": "Tagged",
+        "label": "ORG",
+        "start_char": 8288,
+        "end_char": 8294
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8334,
+        "end_char": 8340
+    },
+    {
+        "text": "5:18\u202fPM",
+        "label": "TIME",
+        "start_char": 8342,
+        "end_char": 8349
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8393,
+        "end_char": 8399
+    },
+    {
+        "text": "5:18\u202fPM",
+        "label": "TIME",
+        "start_char": 8401,
+        "end_char": 8408
+    },
+    {
+        "text": "last year",
+        "label": "DATE",
+        "start_char": 8426,
+        "end_char": 8435
+    },
+    {
+        "text": "about one week\n",
+        "label": "DATE",
+        "start_char": 8513,
+        "end_char": 8528
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8528,
+        "end_char": 8534
+    },
+    {
+        "text": "5:20\u202fPM",
+        "label": "TIME",
+        "start_char": 8536,
+        "end_char": 8543
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8673,
+        "end_char": 8679
+    },
+    {
+        "text": "5:20\u202fPM",
+        "label": "TIME",
+        "start_char": 8681,
+        "end_char": 8688
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8737,
+        "end_char": 8743
+    },
+    {
+        "text": "5:23\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 8745,
+        "end_char": 8761
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8785,
+        "end_char": 8791
+    },
+    {
+        "text": "5:31\u202fPM",
+        "label": "TIME",
+        "start_char": 8793,
+        "end_char": 8800
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8881,
+        "end_char": 8887
+    },
+    {
+        "text": "5:32\u202fPM",
+        "label": "TIME",
+        "start_char": 8889,
+        "end_char": 8896
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8934,
+        "end_char": 8940
+    },
+    {
+        "text": "5:32\u202fPM",
+        "label": "TIME",
+        "start_char": 8942,
+        "end_char": 8949
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 8988,
+        "end_char": 8994
+    },
+    {
+        "text": "5:32\u202fPM",
+        "label": "TIME",
+        "start_char": 8996,
+        "end_char": 9003
+    },
+    {
+        "text": "7/5/23",
+        "label": "DATE",
+        "start_char": 9083,
+        "end_char": 9089
+    },
+    {
+        "text": "5:33\u202fPM",
+        "label": "TIME",
+        "start_char": 9091,
+        "end_char": 9098
+    },
+    {
+        "text": "7/7/23",
+        "label": "DATE",
+        "start_char": 9140,
+        "end_char": 9146
+    },
+    {
+        "text": "3:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9148,
+        "end_char": 9162
+    },
+    {
+        "text": "7/7/23",
+        "label": "DATE",
+        "start_char": 9204,
+        "end_char": 9210
+    },
+    {
+        "text": "5:09\u202fAM",
+        "label": "TIME",
+        "start_char": 9212,
+        "end_char": 9219
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9323,
+        "end_char": 9329
+    },
+    {
+        "text": "8:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9331,
+        "end_char": 9345
+    },
+    {
+        "text": "next friday",
+        "label": "DATE",
+        "start_char": 9387,
+        "end_char": 9398
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 9399,
+        "end_char": 9405
+    },
+    {
+        "text": "8:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9407,
+        "end_char": 9421
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9439,
+        "end_char": 9445
+    },
+    {
+        "text": "8:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9447,
+        "end_char": 9461
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9479,
+        "end_char": 9485
+    },
+    {
+        "text": "8:46\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9487,
+        "end_char": 9501
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9535,
+        "end_char": 9541
+    },
+    {
+        "text": "8:47",
+        "label": "TIME",
+        "start_char": 9543,
+        "end_char": 9547
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9585,
+        "end_char": 9591
+    },
+    {
+        "text": "8:47",
+        "label": "TIME",
+        "start_char": 9593,
+        "end_char": 9597
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 9615,
+        "end_char": 9621
+    },
+    {
+        "text": "8:47",
+        "label": "TIME",
+        "start_char": 9623,
+        "end_char": 9627
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9655,
+        "end_char": 9661
+    },
+    {
+        "text": "8:47",
+        "label": "TIME",
+        "start_char": 9663,
+        "end_char": 9667
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9691,
+        "end_char": 9697
+    },
+    {
+        "text": "8:47",
+        "label": "TIME",
+        "start_char": 9699,
+        "end_char": 9703
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9777,
+        "end_char": 9783
+    },
+    {
+        "text": "8:48\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9785,
+        "end_char": 9799
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9845,
+        "end_char": 9851
+    },
+    {
+        "text": "8:48\u202fAM",
+        "label": "TIME",
+        "start_char": 9853,
+        "end_char": 9860
+    },
+    {
+        "text": "Lol",
+        "label": "PERSON",
+        "start_char": 9871,
+        "end_char": 9874
+    },
+    {
+        "text": "one day",
+        "label": "DATE",
+        "start_char": 9907,
+        "end_char": 9914
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 9926,
+        "end_char": 9932
+    },
+    {
+        "text": "8:48\u202fAM",
+        "label": "TIME",
+        "start_char": 9934,
+        "end_char": 9941
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 9968,
+        "end_char": 9974
+    },
+    {
+        "text": "8:49\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 9976,
+        "end_char": 9990
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10008,
+        "end_char": 10014
+    },
+    {
+        "text": "8:50\u202fAM",
+        "label": "TIME",
+        "start_char": 10016,
+        "end_char": 10023
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10053,
+        "end_char": 10059
+    },
+    {
+        "text": "8:50\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10061,
+        "end_char": 10075
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10093,
+        "end_char": 10099
+    },
+    {
+        "text": "8:51",
+        "label": "GPE",
+        "start_char": 10101,
+        "end_char": 10105
+    },
+    {
+        "text": "about 20",
+        "label": "CARDINAL",
+        "start_char": 10127,
+        "end_char": 10135
+    },
+    {
+        "text": "USD",
+        "label": "ORG",
+        "start_char": 10136,
+        "end_char": 10139
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10140,
+        "end_char": 10146
+    },
+    {
+        "text": "8:51",
+        "label": "GPE",
+        "start_char": 10148,
+        "end_char": 10152
+    },
+    {
+        "text": "Kenya",
+        "label": "GPE",
+        "start_char": 10169,
+        "end_char": 10174
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10184,
+        "end_char": 10190
+    },
+    {
+        "text": "8:51",
+        "label": "GPE",
+        "start_char": 10192,
+        "end_char": 10196
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10213,
+        "end_char": 10219
+    },
+    {
+        "text": "8:51",
+        "label": "GPE",
+        "start_char": 10221,
+        "end_char": 10225
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10257,
+        "end_char": 10263
+    },
+    {
+        "text": "8:51",
+        "label": "GPE",
+        "start_char": 10265,
+        "end_char": 10269
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10310,
+        "end_char": 10316
+    },
+    {
+        "text": "8:52\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10318,
+        "end_char": 10332
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10363,
+        "end_char": 10369
+    },
+    {
+        "text": "8:52\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10371,
+        "end_char": 10385
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10391,
+        "end_char": 10397
+    },
+    {
+        "text": "8:53\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10399,
+        "end_char": 10413
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10547,
+        "end_char": 10553
+    },
+    {
+        "text": "8:53\u202fAM",
+        "label": "TIME",
+        "start_char": 10555,
+        "end_char": 10562
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10589,
+        "end_char": 10595
+    },
+    {
+        "text": "8:54\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10597,
+        "end_char": 10611
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10617,
+        "end_char": 10623
+    },
+    {
+        "text": "8:54\u202fAM",
+        "label": "TIME",
+        "start_char": 10625,
+        "end_char": 10632
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10664,
+        "end_char": 10670
+    },
+    {
+        "text": "8:54\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10672,
+        "end_char": 10686
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10701,
+        "end_char": 10707
+    },
+    {
+        "text": "8:54\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10709,
+        "end_char": 10723
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10754,
+        "end_char": 10760
+    },
+    {
+        "text": "8:54\u202fAM",
+        "label": "TIME",
+        "start_char": 10762,
+        "end_char": 10769
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10813,
+        "end_char": 10819
+    },
+    {
+        "text": "8:56\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10821,
+        "end_char": 10835
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 10876,
+        "end_char": 10882
+    },
+    {
+        "text": "8:57",
+        "label": "TIME",
+        "start_char": 10884,
+        "end_char": 10888
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10907,
+        "end_char": 10913
+    },
+    {
+        "text": "9:00\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 10915,
+        "end_char": 10929
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 10999,
+        "end_char": 11005
+    },
+    {
+        "text": "9:00\u202fAM",
+        "label": "TIME",
+        "start_char": 11007,
+        "end_char": 11014
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 11049,
+        "end_char": 11055
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 11149,
+        "end_char": 11155
+    },
+    {
+        "text": "7/8/23",
+        "label": "CARDINAL",
+        "start_char": 11265,
+        "end_char": 11271
+    },
+    {
+        "text": "7/8/23",
+        "label": "DATE",
+        "start_char": 11295,
+        "end_char": 11301
+    },
+    {
+        "text": "9:06\u202fAM - cintah",
+        "label": "TIME",
+        "start_char": 11303,
+        "end_char": 11319
+    },
+    {
+        "text": "7/9/23",
+        "label": "DATE",
+        "start_char": 11357,
+        "end_char": 11363
+    },
+    {
+        "text": "5:57\u202fAM",
+        "label": "TIME",
+        "start_char": 11365,
+        "end_char": 11372
+    },
+    {
+        "text": "7/9/23",
+        "label": "DATE",
+        "start_char": 11426,
+        "end_char": 11432
+    },
+    {
+        "text": "6:00\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 11434,
+        "end_char": 11448
+    },
+    {
+        "text": "7/9/23",
+        "label": "DATE",
+        "start_char": 11473,
+        "end_char": 11479
+    },
+    {
+        "text": "6:00\u202fAM - Mark:",
+        "label": "TIME",
+        "start_char": 11481,
+        "end_char": 11496
+    },
+    {
+        "text": "7/9/23",
+        "label": "DATE",
+        "start_char": 11523,
+        "end_char": 11529
+    },
+    {
+        "text": "6:01\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 11531,
+        "end_char": 11545
+    },
+    {
+        "text": "\ud83d\ude44\n",
+        "label": "PERSON",
+        "start_char": 11547,
+        "end_char": 11549
+    },
+    {
+        "text": "7/9/23",
+        "label": "DATE",
+        "start_char": 11549,
+        "end_char": 11555
+    },
+    {
+        "text": "7/11/23",
+        "label": "DATE",
+        "start_char": 11598,
+        "end_char": 11605
+    },
+    {
+        "text": "3:58\u202fPM - cintah",
+        "label": "TIME",
+        "start_char": 11607,
+        "end_char": 11623
+    },
+    {
+        "text": "7/22/23",
+        "label": "DATE",
+        "start_char": 11645,
+        "end_char": 11652
+    },
+    {
+        "text": "12:13\u202fPM",
+        "label": "TIME",
+        "start_char": 11654,
+        "end_char": 11662
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11690,
+        "end_char": 11697
+    },
+    {
+        "text": "12:13\u202fPM",
+        "label": "TIME",
+        "start_char": 11699,
+        "end_char": 11707
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11738,
+        "end_char": 11745
+    },
+    {
+        "text": "12:13\u202fPM",
+        "label": "TIME",
+        "start_char": 11747,
+        "end_char": 11755
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11781,
+        "end_char": 11788
+    },
+    {
+        "text": "12:57\u202fPM",
+        "label": "TIME",
+        "start_char": 11790,
+        "end_char": 11798
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11837,
+        "end_char": 11844
+    },
+    {
+        "text": "12:57\u202fPM",
+        "label": "TIME",
+        "start_char": 11846,
+        "end_char": 11854
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11899,
+        "end_char": 11906
+    },
+    {
+        "text": "1:00\u202fPM",
+        "label": "TIME",
+        "start_char": 11908,
+        "end_char": 11915
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 11946,
+        "end_char": 11953
+    },
+    {
+        "text": "1:00\u202fPM",
+        "label": "TIME",
+        "start_char": 11955,
+        "end_char": 11962
+    },
+    {
+        "text": "6k the whole week\n7/22/23",
+        "label": "DATE",
+        "start_char": 11996,
+        "end_char": 12021
+    },
+    {
+        "text": "1:29\u202fPM",
+        "label": "TIME",
+        "start_char": 12023,
+        "end_char": 12030
+    },
+    {
+        "text": "7/22/23",
+        "label": "CARDINAL",
+        "start_char": 12073,
+        "end_char": 12080
+    },
+    {
+        "text": "1:30\u202fPM",
+        "label": "TIME",
+        "start_char": 12082,
+        "end_char": 12089
+    },
+    {
+        "text": "\ud83d\ude4f",
+        "label": "ORG",
+        "start_char": 12120,
+        "end_char": 12121
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12122,
+        "end_char": 12129
+    },
+    {
+        "text": "11:50\u202fAM",
+        "label": "TIME",
+        "start_char": 12131,
+        "end_char": 12139
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12172,
+        "end_char": 12179
+    },
+    {
+        "text": "12:08\u202fPM",
+        "label": "TIME",
+        "start_char": 12181,
+        "end_char": 12189
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12214,
+        "end_char": 12221
+    },
+    {
+        "text": "12:08\u202fPM",
+        "label": "TIME",
+        "start_char": 12223,
+        "end_char": 12231
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12258,
+        "end_char": 12265
+    },
+    {
+        "text": "12:08\u202fPM",
+        "label": "TIME",
+        "start_char": 12267,
+        "end_char": 12275
+    },
+    {
+        "text": "last week",
+        "label": "DATE",
+        "start_char": 12292,
+        "end_char": 12301
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12303,
+        "end_char": 12310
+    },
+    {
+        "text": "12:08\u202fPM",
+        "label": "TIME",
+        "start_char": 12312,
+        "end_char": 12320
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12368,
+        "end_char": 12375
+    },
+    {
+        "text": "12:09\u202fPM",
+        "label": "TIME",
+        "start_char": 12377,
+        "end_char": 12385
+    },
+    {
+        "text": "15k",
+        "label": "CARDINAL",
+        "start_char": 12410,
+        "end_char": 12413
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12414,
+        "end_char": 12421
+    },
+    {
+        "text": "12:11\u202fPM",
+        "label": "TIME",
+        "start_char": 12423,
+        "end_char": 12431
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12470,
+        "end_char": 12477
+    },
+    {
+        "text": "12:13\u202fPM",
+        "label": "TIME",
+        "start_char": 12479,
+        "end_char": 12487
+    },
+    {
+        "text": "Tagged",
+        "label": "GPE",
+        "start_char": 12537,
+        "end_char": 12543
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12650,
+        "end_char": 12657
+    },
+    {
+        "text": "12:15\u202fPM",
+        "label": "TIME",
+        "start_char": 12659,
+        "end_char": 12667
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12763,
+        "end_char": 12770
+    },
+    {
+        "text": "12:15\u202fPM",
+        "label": "TIME",
+        "start_char": 12772,
+        "end_char": 12780
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12805,
+        "end_char": 12812
+    },
+    {
+        "text": "12:43\u202fPM",
+        "label": "TIME",
+        "start_char": 12814,
+        "end_char": 12822
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12859,
+        "end_char": 12866
+    },
+    {
+        "text": "12:43\u202fPM",
+        "label": "TIME",
+        "start_char": 12868,
+        "end_char": 12876
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12897,
+        "end_char": 12904
+    },
+    {
+        "text": "12:43\u202fPM",
+        "label": "TIME",
+        "start_char": 12906,
+        "end_char": 12914
+    },
+    {
+        "text": "last week",
+        "label": "DATE",
+        "start_char": 12938,
+        "end_char": 12947
+    },
+    {
+        "text": "Friday",
+        "label": "DATE",
+        "start_char": 12951,
+        "end_char": 12957
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 12958,
+        "end_char": 12965
+    },
+    {
+        "text": "1:01\u202fPM",
+        "label": "TIME",
+        "start_char": 12967,
+        "end_char": 12974
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13064,
+        "end_char": 13071
+    },
+    {
+        "text": "1:02\u202fPM",
+        "label": "TIME",
+        "start_char": 13073,
+        "end_char": 13080
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13124,
+        "end_char": 13131
+    },
+    {
+        "text": "1:02\u202fPM",
+        "label": "TIME",
+        "start_char": 13133,
+        "end_char": 13140
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13199,
+        "end_char": 13206
+    },
+    {
+        "text": "1:02\u202fPM",
+        "label": "TIME",
+        "start_char": 13208,
+        "end_char": 13215
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13237,
+        "end_char": 13244
+    },
+    {
+        "text": "1:03\u202f",
+        "label": "DATE",
+        "start_char": 13246,
+        "end_char": 13251
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13283,
+        "end_char": 13290
+    },
+    {
+        "text": "1:03\u202f",
+        "label": "DATE",
+        "start_char": 13292,
+        "end_char": 13297
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13333,
+        "end_char": 13340
+    },
+    {
+        "text": "1:06\u202fPM",
+        "label": "TIME",
+        "start_char": 13342,
+        "end_char": 13349
+    },
+    {
+        "text": "7/31/23",
+        "label": "CARDINAL",
+        "start_char": 13457,
+        "end_char": 13464
+    },
+    {
+        "text": "1:06\u202fPM",
+        "label": "TIME",
+        "start_char": 13466,
+        "end_char": 13473
+    },
+    {
+        "text": "Instagram\n8/12/23",
+        "label": "FAC",
+        "start_char": 13505,
+        "end_char": 13522
+    },
+    {
+        "text": "6:33\u202fPM",
+        "label": "TIME",
+        "start_char": 13524,
+        "end_char": 13531
+    },
+    {
+        "text": "8/12/23",
+        "label": "CARDINAL",
+        "start_char": 13551,
+        "end_char": 13558
+    },
+    {
+        "text": "6:34\u202fPM",
+        "label": "TIME",
+        "start_char": 13560,
+        "end_char": 13567
+    },
+    {
+        "text": "9/16/23",
+        "label": "CARDINAL",
+        "start_char": 13621,
+        "end_char": 13628
+    },
+    {
+        "text": "6:02\u202fPM",
+        "label": "TIME",
+        "start_char": 13630,
+        "end_char": 13637
+    },
+    {
+        "text": "9/16/23",
+        "label": "CARDINAL",
+        "start_char": 13693,
+        "end_char": 13700
+    },
+    {
+        "text": "6:04\u202fPM",
+        "label": "TIME",
+        "start_char": 13702,
+        "end_char": 13709
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 13764,
+        "end_char": 13770
+    },
+    {
+        "text": "1:48\u202fAM",
+        "label": "TIME",
+        "start_char": 13772,
+        "end_char": 13779
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 13790,
+        "end_char": 13796
+    },
+    {
+        "text": "1:48\u202fAM",
+        "label": "TIME",
+        "start_char": 13798,
+        "end_char": 13805
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 13816,
+        "end_char": 13822
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 13861,
+        "end_char": 13867
+    },
+    {
+        "text": "5:07\u202fAM",
+        "label": "TIME",
+        "start_char": 13869,
+        "end_char": 13876
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 13915,
+        "end_char": 13921
+    },
+    {
+        "text": "5:07\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 13923,
+        "end_char": 13937
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14008,
+        "end_char": 14014
+    },
+    {
+        "text": "5:08\u202fAM",
+        "label": "TIME",
+        "start_char": 14016,
+        "end_char": 14023
+    },
+    {
+        "text": "LoL",
+        "label": "WORK_OF_ART",
+        "start_char": 14034,
+        "end_char": 14037
+    },
+    {
+        "text": "\ud83d\ude14",
+        "label": "ORG",
+        "start_char": 14053,
+        "end_char": 14054
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14055,
+        "end_char": 14061
+    },
+    {
+        "text": "5:09\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 14063,
+        "end_char": 14077
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14162,
+        "end_char": 14168
+    },
+    {
+        "text": "5:10\u202fAM",
+        "label": "TIME",
+        "start_char": 14170,
+        "end_char": 14177
+    },
+    {
+        "text": "one year",
+        "label": "DATE",
+        "start_char": 14216,
+        "end_char": 14224
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14257,
+        "end_char": 14263
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14366,
+        "end_char": 14372
+    },
+    {
+        "text": "5:16\u202fAM",
+        "label": "TIME",
+        "start_char": 14374,
+        "end_char": 14381
+    },
+    {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 14413,
+        "end_char": 14416
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14417,
+        "end_char": 14423
+    },
+    {
+        "text": "5:18\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 14425,
+        "end_char": 14439
+    },
+    {
+        "text": "3/1/24",
+        "label": "CARDINAL",
+        "start_char": 14509,
+        "end_char": 14515
+    },
+    {
+        "text": "5:19",
+        "label": "GPE",
+        "start_char": 14517,
+        "end_char": 14521
+    },
+    {
+        "text": "3/23/24",
+        "label": "CARDINAL",
+        "start_char": 14570,
+        "end_char": 14577
+    },
+    {
+        "text": "3:56\u202fPM",
+        "label": "TIME",
+        "start_char": 14579,
+        "end_char": 14586
+    },
+    {
+        "text": "3/23/24",
+        "label": "CARDINAL",
+        "start_char": 14612,
+        "end_char": 14619
+    },
+    {
+        "text": "3:56\u202fPM",
+        "label": "TIME",
+        "start_char": 14621,
+        "end_char": 14628
+    },
+    {
+        "text": "4/21/24",
+        "label": "CARDINAL",
+        "start_char": 14657,
+        "end_char": 14664
+    },
+    {
+        "text": "6:25\u202fAM",
+        "label": "TIME",
+        "start_char": 14666,
+        "end_char": 14673
+    },
+    {
+        "text": "4/21/24",
+        "label": "CARDINAL",
+        "start_char": 14688,
+        "end_char": 14695
+    },
+    {
+        "text": "6:38\u202fAM - Mark",
+        "label": "TIME",
+        "start_char": 14697,
+        "end_char": 14711
+    },
+    {
+        "text": "4/21/24",
+        "label": "CARDINAL",
+        "start_char": 14720,
+        "end_char": 14727
+    },
+    {
+        "text": "6:53\u202fAM",
+        "label": "TIME",
+        "start_char": 14729,
+        "end_char": 14736
+    },
+    {
+        "text": "8/25/24",
+        "label": "CARDINAL",
+        "start_char": 14765,
+        "end_char": 14772
+    },
+    {
+        "text": "3:39\u202fPM - Mark:",
+        "label": "TIME",
+        "start_char": 14774,
+        "end_char": 14789
+    },
+    {
+        "text": "8/25/24",
+        "label": "CARDINAL",
+        "start_char": 14802,
+        "end_char": 14809
+    },
+    {
+        "text": "3:43\u202fPM",
+        "label": "TIME",
+        "start_char": 14811,
+        "end_char": 14818
+    },
+    {
+        "text": "8/25/24",
+        "label": "CARDINAL",
+        "start_char": 14844,
+        "end_char": 14851
+    },
+    {
+        "text": "3:43\u202fPM",
+        "label": "TIME",
+        "start_char": 14853,
+        "end_char": 14860
+    },
+    {
+        "text": "8/25/24",
+        "label": "CARDINAL",
+        "start_char": 14891,
+        "end_char": 14898
+    },
+    {
+        "text": "3:45\u202fPM",
+        "label": "TIME",
+        "start_char": 14900,
+        "end_char": 14907
+    },
+    {
+        "text": "8/25/24",
+        "label": "CARDINAL",
+        "start_char": 14961,
+        "end_char": 14968
+    },
+    {
+        "text": "4:00\u202fPM",
+        "label": "TIME",
+        "start_char": 14970,
+        "end_char": 14977
+    },
+    {
+        "text": "8/29/24",
+        "label": "CARDINAL",
+        "start_char": 15001,
+        "end_char": 15008
+    },
+    {
+        "text": "6:44\u202fPM - Mark:",
+        "label": "TIME",
+        "start_char": 15010,
+        "end_char": 15025
+    },
+    {
+        "text": "8/29/24",
+        "label": "CARDINAL",
+        "start_char": 15028,
+        "end_char": 15035
+    },
+    {
+        "text": "7:32\u202f",
+        "label": "DATE",
+        "start_char": 15037,
+        "end_char": 15042
+    },
+    {
+        "text": "4:27\u202fPM",
+        "label": "TIME",
+        "start_char": 15078,
+        "end_char": 15085
+    },
+    {
+        "text": "4:29\u202fPM",
+        "label": "TIME",
+        "start_char": 15128,
+        "end_char": 15135
+    },
+    {
+        "text": "\u2764",
+        "label": "CARDINAL",
+        "start_char": 15152,
+        "end_char": 15153
+    },
+    {
+        "text": "9/3/24",
+        "label": "CARDINAL",
+        "start_char": 15155,
+        "end_char": 15161
+    },
+    {
+        "text": "4:30\u202fPM",
+        "label": "TIME",
+        "start_char": 15163,
+        "end_char": 15170
+    },
+    {
+        "text": "9/3/24",
+        "label": "TIME",
+        "start_char": 15196,
+        "end_char": 15202
+    },
+    {
+        "text": "4:33\u202fPM",
+        "label": "TIME",
+        "start_char": 15204,
+        "end_char": 15211
+    },
+    {
+        "text": "9/3/24",
+        "label": "TIME",
+        "start_char": 15306,
+        "end_char": 15312
+    },
+    {
+        "text": "\ud83d\ude4f\ud83d\ude4f",
+        "label": "ORG",
+        "start_char": 15360,
+        "end_char": 15362
+    },
+    {
+        "text": "9/19/24",
+        "label": "DATE",
+        "start_char": 15365,
+        "end_char": 15372
+    },
+    {
+        "text": "6:57\u202fPM",
+        "label": "TIME",
+        "start_char": 15374,
+        "end_char": 15381
+    },
+    {
+        "text": "9/19/24",
+        "label": "CARDINAL",
+        "start_char": 15440,
+        "end_char": 15447
+    },
+    {
+        "text": "6:57\u202fPM",
+        "label": "TIME",
+        "start_char": 15449,
+        "end_char": 15456
+    },
+    {
+        "text": "9/19/24",
+        "label": "DATE",
+        "start_char": 15497,
+        "end_char": 15504
+    },
+    {
+        "text": "6:59\u202fPM - Mark:",
+        "label": "TIME",
+        "start_char": 15506,
+        "end_char": 15521
+    },
+    {
+        "text": "9/19/24",
+        "label": "DATE",
+        "start_char": 15571,
+        "end_char": 15578
+    },
+    {
+        "text": "11:43\u202fPM",
+        "label": "TIME",
+        "start_char": 15580,
+        "end_char": 15588
+    }
+]

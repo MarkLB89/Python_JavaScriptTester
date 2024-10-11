@@ -41,7 +41,6 @@ PYTHON_JAVASCRIPTTESTER [CODESPACES: REIMAGINED DOODLE]
 ├── models.py
 ├── open_images_classes.json
 ├── README.md
-
 ```
 
 ---

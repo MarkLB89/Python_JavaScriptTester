@@ -57,7 +57,7 @@ def generate_answer(question, passage):
     answer = answer.replace("[SEP]", "").strip()
 
     # Debug: Print the final generated answer
-    print(f"Generated Answer: {answer}")
+    #print(f"Generated Answer: {answer}")
 
     # Remove the question from the answer if necessary (redundant answers)
     if answer.lower().startswith(question.lower()):

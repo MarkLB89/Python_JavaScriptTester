@@ -17,24 +17,24 @@ packages = [
     "spacy"
 ]
 
-# Function to install a package using pip
+# Function to install a package using pipenv
 def install_package(package):
     try:
-        print(f"Installing {package}...")
-        result = subprocess.run(f"pip install {package}", shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(result.stdout.decode('utf-8'))  # Output from pip
+        print(f"Installing {package} with pipenv...")
+        result = subprocess.run(f"pipenv install {package}", shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print(result.stdout.decode('utf-8'))  # Output from pipenv
         print(f"{package} installed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error installing {package}: {e.stderr.decode('utf-8')}")
 
-# Install each package
+# Install each package using pipenv
 for package in packages:
     install_package(package)
 
 # Special case for spaCy model installation
 try:
     print("Downloading spaCy language model 'en_core_web_sm'...")
-    result = subprocess.run("python -m spacy download en_core_web_sm", shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    result = subprocess.run("pipenv run python -m spacy download en_core_web_sm", shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     print(result.stdout.decode('utf-8'))
     print("spaCy model 'en_core_web_sm' installed successfully.")
 except subprocess.CalledProcessError as e:
